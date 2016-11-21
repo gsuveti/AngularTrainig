@@ -1,6 +1,6 @@
 # Angular Training
 
-## 1. Node LTS(v6.9.1 or greater)
+## 1. Install Node LTS(v6.9.1 or greater)
 
 https://nodejs.org/en/download/
 
@@ -14,6 +14,7 @@ How to check if everything is ok?
 open cmd/terminal and run: ```npm install -g angular-cli```
 
 
-## 3. Install Webstorm (30-day trial is fine)
+## 3. Install Webstorm (30-day trial it's ok)
 
-https://www.jetbrains.com/webstorm/download/
+- download and install webstorm: https://www.jetbrains.com/webstorm/download/
+- create all associations when asked (.js, .css, .html)
