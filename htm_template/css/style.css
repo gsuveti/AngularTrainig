@@ -1,0 +1,171 @@
+/* reset css*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* my style */
+
+body #ligaac-trainer {
+    color: white;
+    font-family: Helvetica, "Segoe UI", Verdana, Arial;
+}
+
+body #ligaac-trainer h1 {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 1.5em;
+
+}
+
+body #ligaac-trainer p {
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 1.5em;
+    color: #eee;
+}
+
+body #ligaac-trainer .header {
+    width: 100%;
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+}
+
+body #ligaac-trainer .header h1{
+    font-size: 60px;
+    font-weight: 100;
+    max-width: 320px;
+
+}
+
+body #ligaac-trainer .article {
+    width: 100%;
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+}
+
+body #ligaac-trainer .container  {
+    max-width: 900px;
+    width: 100%;
+    padding: 0 15px;
+
+}
+
+body #ligaac-trainer .footer {
+    background: #2c3e50;
+    width: 100%;
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+}
+
+body #ligaac-trainer .container .head {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+
+}
+
+body #ligaac-trainer .footer .input-container {
+    display: flex;
+    flex-direction: column;
+}
+
+body #ligaac-trainer .footer .field {
+    padding: 15px;
+    border: none;
+    background: #32475c;
+    margin-bottom: 15px;
+    color: white;
+}
+
+body #ligaac-trainer .footer .field:active {
+    outline: none;
+}
+
+body #ligaac-trainer .footer .field::-webkit-input-placeholder {
+    color: white;
+}
+body #ligaac-trainer .footer .field:-moz-placeholder {
+    color: white;
+}
+body #ligaac-trainer .footer .field::-moz-placeholder {
+    color: white;
+}
+
+body #ligaac-trainer .footer .field:-ms-input-placeholder {
+     color: white;  }
+
+body #ligaac-trainer .footer .button {
+    background: #32475c;
+    border: none;
+    color: white;
+    padding: 15px;
+    box-shadow: 8px 8px 0px 0px rgb(37, 52, 68);
+    cursor: pointer;
+    outline: none;
+    max-width: 50%;
+}
+
+.body #ligaac-trainer .footer .button:hover {
+    background: #3e5066;
+    outline: none;
+
+}
+
+body #ligaac-trainer .footer .button:active {
+    margin-left: 8px;
+    margin-top: 8px;
+    box-shadow: none;
+    outline: none;
+
+
+}
