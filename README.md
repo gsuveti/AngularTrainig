@@ -18,3 +18,9 @@ open cmd/terminal and run: ```npm install -g angular-cli```
 
 - download and install webstorm: https://www.jetbrains.com/webstorm/download/
 - create all associations when asked (.js, .css, .html)
+
+
+
+Util:
+
+https://angular-training-ed4b8.firebaseio.com/trainings.json
