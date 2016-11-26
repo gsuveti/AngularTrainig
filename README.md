@@ -24,3 +24,6 @@ open cmd/terminal and run: ```npm install -g angular-cli```
 Util:
 
 https://angular-training-ed4b8.firebaseio.com/trainings.json
+
+Slides:
+https://slides.com/george-eduard-suveti/
