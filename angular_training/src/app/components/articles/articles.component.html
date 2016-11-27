@@ -1,0 +1,19 @@
+<div class="articles">
+  <div class="article" *ngFor="let item of articles" [ngStyle]="{'background': item.color}">
+    <div class="container">
+      <div class="head">
+        <h1 class="title">
+          {{item.title}}
+        </h1>
+        <p class="date">
+          {{item.date}}
+        </p>
+      </div>
+      <p class="body">
+        {{item.body}}
+      </p>
+    </div>
+  </div>
+
+
+</div>
