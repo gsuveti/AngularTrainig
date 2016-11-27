@@ -85,11 +85,12 @@ body #ligaac-trainer .header h1{
 
 }
 
-body #ligaac-trainer .article {
-    width: 100%;
-    padding: 100px 0;
+
+body #ligaac-trainer .container .head {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+
 }
 
 body #ligaac-trainer .container  {
@@ -99,6 +100,15 @@ body #ligaac-trainer .container  {
 
 }
 
+body #ligaac-trainer .article {
+    width: 100%;
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+
 body #ligaac-trainer .footer {
     background: #2c3e50;
     width: 100%;
@@ -107,12 +117,6 @@ body #ligaac-trainer .footer {
     justify-content: center;
 }
 
-body #ligaac-trainer .container .head {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 50px;
-
-}
 
 body #ligaac-trainer .footer .input-container {
     display: flex;
@@ -155,7 +159,7 @@ body #ligaac-trainer .footer .button {
     max-width: 50%;
 }
 
-.body #ligaac-trainer .footer .button:hover {
+body #ligaac-trainer .footer .button:hover {
     background: #3e5066;
     outline: none;
 
